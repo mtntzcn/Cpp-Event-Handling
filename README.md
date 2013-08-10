@@ -1,4 +1,4 @@
-cpp-event-handling
+NotificationCenter for C++
 ==================
 
 NotificationCenter developed for pure C++. That allows event handling in pure C++ like Objective-C [NSNotificationCenter defaultCenter].
