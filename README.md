@@ -9,3 +9,6 @@ NotificationCenter allows to:
 - Remove an observer objects with notification name, with object, with with object and member function
 - Post notification/event with notification name and parameter (void *)
 
+** USAGE **
+
+main.cpp contain usage of NotificationCenter.
