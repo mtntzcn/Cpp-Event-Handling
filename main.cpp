@@ -56,4 +56,19 @@ int main(int argc, const char * argv[])
 }
 
 
+/*
+
+OUTPUT:
+
+Hello, handleEvent1 called.
+Hello, aFunction called with parameter: Some parameter
+Hello, handleEvent2 called with parameter: Some parameter with counter: 2013
+
+test2 observers has been removed.
+Hello, handleEvent1 called.
+Hello, World!
+
+
+*/
+
 
