@@ -1,9 +1,14 @@
-NotificationCenter for C++
-==================
+#Event handling library for pure C++
 
-NotificationCenter developed for pure C++. That allows event handling in pure C++ like Objective-C [NSNotificationCenter defaultCenter].
-
-NotificationCenter allows to:
+NotificationCenter developed for pure C++. That allows event handling in pure C++ like Objective-C 
+```objectivec
+[[NSNotificationCenter defaultCenter] addObserver:self
+                                         selector:@selector(observeNotification1:) 
+                                             name:@"notification1" 
+                                           object:@"some parameter"];
+    
+```
+#####NotificationCenter allows to:
 
 - Handle/Observe an notification with NON-MEMBER FUNCTIONS and MEMBER-FUNCTIONS. 
 - Remove an observer objects with notification name, with object, with with object and member function
